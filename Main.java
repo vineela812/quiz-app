@@ -143,7 +143,7 @@ class QuizFrame extends JFrame {
     List<Question> fetchQuestions() {
         List<Question> list = new ArrayList<>();
         try (Connection conn = DBHelper.getConnection()) {
-            PreparedStatement ps = conn.prepareStatement("SELECT * FROM questions WHERE quiz_id = ?");
+            PreparedStatement ps = conn.prepareStatement("SELECT * FROM questions WHERE quiz_id = ? ORDER BY RAND() LIMIT 15");
             ps.setInt(1, quizId);
             ResultSet rs = ps.executeQuery();
 
@@ -183,7 +183,7 @@ class QuizFrame extends JFrame {
     }
 
     void startTimer() {
-        countdownTimer = new Timer(1000, e -> {
+        countdownTimer = new Timer(1000, _ -> {
             timeLeft--;
             timerLabel.setText("Time Left: " + timeLeft);
             if (timeLeft <= 0) {

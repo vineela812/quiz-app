@@ -60,3 +60,26 @@ INSERT INTO questions (quiz_id, question_text, option_a, option_b, option_c, opt
 (1, 'What is the chemical formula of water?', 'H2O', 'CO2', 'O2', 'NaCl', 'A'),
 (1, 'Which bird is known for its colorful tail?', 'Sparrow', 'Peacock', 'Crow', 'Pigeon', 'B'),
 (1, 'How many continents are there on Earth?', '5', '6', '7', '8', 'C');
+
+INSERT INTO questions (quiz_id, question_text, option_a, option_b, option_c, option_d, correct_option) VALUES
+(1, 'Which planet has the most moons?', 'Mars', 'Saturn', 'Jupiter', 'Venus', 'C'),
+(1, 'Who discovered gravity?', 'Albert Einstein', 'Isaac Newton', 'Galileo Galilei', 'Stephen Hawking', 'B'),
+(1, 'What is the currency of Japan?', 'Yen', 'Won', 'Rupee', 'Dollar', 'A'),
+(1, 'Which metal is liquid at room temperature?', 'Mercury', 'Gold', 'Copper', 'Aluminum', 'A'),
+(1, 'Who is known as the Father of Computers?', 'Charles Babbage', 'Alan Turing', 'Tim Berners-Lee', 'Bill Gates', 'A'),
+(1, 'How many bones are there in the adult human body?', '206', '201', '210', '199', 'A'),
+(1, 'Which country is famous for the Great Pyramid of Giza?', 'India', 'Mexico', 'Egypt', 'Iraq', 'C'),
+(1, 'What is the freezing point of water?', '0°C', '32°C', '100°C', '-10°C', 'A'),
+(1, 'What is the main gas found in the air we breathe?', 'Oxygen', 'Hydrogen', 'Carbon Dioxide', 'Nitrogen', 'D'),
+(1, 'Which famous scientist developed the theory of relativity?', 'Einstein', 'Bohr', 'Tesla', 'Faraday', 'A'),
+(1, 'Which is the longest river in the world?', 'Amazon', 'Nile', 'Yangtze', 'Mississippi', 'B'),
+(1, 'How many sides does a hexagon have?', '5', '6', '7', '8', 'B'),
+(1, 'What is the tallest mountain in the world?', 'K2', 'Kangchenjunga', 'Everest', 'Makalu', 'C'),
+(1, 'Which vitamin is produced when a person is exposed to sunlight?', 'Vitamin A', 'Vitamin B', 'Vitamin C', 'Vitamin D', 'D'),
+(1, 'What is the main language spoken in Brazil?', 'Spanish', 'English', 'Portuguese', 'French', 'C'),
+(1, 'Which blood group is known as the universal donor?', 'A', 'B', 'AB', 'O', 'D'),
+(1, 'What is the process by which plants make food?', 'Digestion', 'Respiration', 'Photosynthesis', 'Transpiration', 'C'),
+(1, 'Which is the largest planet in our solar system?', 'Earth', 'Mars', 'Jupiter', 'Venus', 'C'),
+(1, 'What do bees collect and use to make honey?', 'Pollen', 'Nectar', 'Water', 'Sap', 'B'),
+(1, 'Which instrument is used to measure temperature?', 'Thermometer', 'Barometer', 'Speedometer', 'Altimeter', 'A');
+
